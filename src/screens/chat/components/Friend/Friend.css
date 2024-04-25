@@ -1,0 +1,40 @@
+.m-0 {
+    margin: 0px;
+}
+
+.friend-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    cursor: pointer;
+    flex-direction: column;
+    height: 70px;
+}
+
+@media (min-width: 800px) {
+    .friend-list {
+        flex-direction: row;
+    }
+}
+
+.friend-list > div {
+    display: flex;
+}
+
+.friend-list > div img {
+    display: flex;
+    align-self: center;
+    margin-right: 5px;
+}
+
+.friend-list > div .friend-info {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.friend-list .friend-status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

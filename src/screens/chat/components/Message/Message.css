@@ -1,0 +1,50 @@
+.creator {
+    justify-content: flex-end;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.m-0 {
+    margin: 0px;
+}
+
+.message {
+    display: flex;
+    padding-right: 5px;
+    text-align: left;
+    height: fit-content;
+}
+
+.message p {
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.message>div {
+    border-radius: 20px;
+}
+
+.message .owner {
+    background-color: #2999d4;
+    color: white;
+    padding: 10px;
+}
+
+.message .other-person {
+    background-color: #f5f6f8;
+    padding: 10px;
+}
+
+.message .dots {
+    margin: -5px 0 3px 0;
+}
+
+.message img {
+    max-width: 200px;
+}

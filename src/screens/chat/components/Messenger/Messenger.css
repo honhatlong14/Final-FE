@@ -1,0 +1,102 @@
+/* Assuming $bg-main and $success are defined in _variables.scss */
+
+#messenger {
+    justify-content: space-between;
+    padding: 15px;
+    flex-grow: 2;
+    background-color: #cbe1f8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+#messenger #messenger-wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+}
+
+#messenger #messenger-wrap #settings {
+    border-radius: 5px;
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    padding: 5px;
+    border: 1px solid #d9d9d9;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+#messenger #messenger-wrap #settings>div {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#messenger #messenger-wrap #settings>div .fa-icon {
+    position: relative;
+    font-size: 20px;
+    color: #2999d4;
+    margin-right: 5px;
+    min-width: 20px;
+}
+
+#messenger #messenger-wrap #settings p {
+    margin: 5px 0;
+    color: #000;
+}
+
+#messenger #messenger-wrap>.fa-icon {
+    font-size: 20px;
+    color: #2999d4;
+    right: 0;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+#messenger>div {
+    flex-grow: 1;
+}
+
+#messenger input {
+    border: none;
+    background-color: #f5f6f8;
+    padding: 10px;
+}
+
+#messenger hr {
+    border-top: 1px solid #cfcfcf;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#messenger #delete-chat {
+    background-color: #42b983;
+    border: none;
+    padding: 5px;
+    width: 70px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#messenger #suggestions .suggestion {
+    margin: 10px 0;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#messenger #suggestions .suggestion button {
+    background-color: #42b983;
+    border-radius: 10px;
+    border: none;
+    height: 25px;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,88 @@
+#input-container {
+    position: relative;
+}
+
+#input-container #image-upload-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5px 2.5px 2.5px 0;
+    position: relative;
+}
+
+#input-container #image-upload-container #image-upload {
+    display: flex;
+}
+
+#input-container #image-upload-container #message-notification {
+    display: flex;
+    cursor: pointer;
+    border: 1px solid #2999d4;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#input-container #image-upload-container #message-notification .fa-icon {
+    color: #2999d4;
+    margin-right: 5px;
+}
+
+#input-container #image-upload-container .fa-icon {
+    position: relative;
+    right: 0;
+    top: 0;
+}
+
+#input-container #image-upload-container #image-details {
+    padding: 2px;
+    border: 1px solid black;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#input-container #image-upload-container #image-details .fa-icon {
+    margin: 0 4px;
+}
+
+#input-container #message-input {
+    position: relative;
+}
+
+#input-container #message-input input {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#input-container .fa-icon {
+    font-size: 20px;
+    color: #2999d4;
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    cursor: pointer;
+}
+
+#input-container .mb-5p {
+    margin-bottom: 5px;
+}
+
+#input-container .mb-10p {
+    margin-bottom: 10px;
+}
+
+#input-container input {
+    border: none;
+    background-color: #f5f6f8;
+    padding: 10px;
+}
+
+#input-container #chat-image {
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    opacity: 0.0;
+}
